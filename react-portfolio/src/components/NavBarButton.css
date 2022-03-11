@@ -1,4 +1,7 @@
 .navButton{
   padding: .5em;
-  cursor: pointer;
 }
+.right .navButton{
+  cursor: pointer ;
+}
+

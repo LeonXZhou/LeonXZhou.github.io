@@ -1,23 +1,32 @@
-nav.top{
+@font-face {
+  font-family: Bravo;
+  src: url(../fonts/Bavro-Regular.ttf);
+}
+
+
+nav.top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
   width: 100%;
-  height: 3em;
+  /* height: 3em; */
   background-color: transparent;
 
   color: rgb(112, 112, 112);
-  
+
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
 }
-nav.top .left{
-  display:flex;
+
+nav.top .left {
+  display: flex;
+  /* font-style: italic; */
+  font-size: 30px;
+  font-family: Bravo;
 }
-nav.top .right{
-  display:flex;
-}
-nav.top .center{
-  position: absolute;
-  right: 50%;
-  transform: translate(50%,0%);
+
+nav.top .right {
+  display: flex;
 }

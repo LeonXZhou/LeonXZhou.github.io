@@ -6,15 +6,21 @@ export default function NavBarTop() {
     <nav className="top">
       <div className="left">
         <NavBarButton>
-          Leon Zhou
+          LZ
         </NavBarButton>
       </div>
-      <div className="left">
+      <div className="right">
         <NavBarButton>
-          Linear Regression
+          Projects
         </NavBarButton>
         <NavBarButton>
-          Quadratic Fit
+          About
+        </NavBarButton>
+        <NavBarButton>
+          Contact 
+        </NavBarButton>
+        <NavBarButton>
+          Resume
         </NavBarButton>
       </div>
     </nav>
