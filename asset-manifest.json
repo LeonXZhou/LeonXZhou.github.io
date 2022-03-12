@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.acca4670.js",
+    "main.css": "/static/css/main.87490caf.css",
+    "main.js": "/static/js/main.f9c6ae07.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Bavro-Regular.ttf": "/static/media/Bavro-Regular.a5c188fd24166095f144.ttf",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.acca4670.js.map": "/static/js/main.acca4670.js.map",
+    "main.87490caf.css.map": "/static/css/main.87490caf.css.map",
+    "main.f9c6ae07.js.map": "/static/js/main.f9c6ae07.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.acca4670.js"
+    "static/css/main.87490caf.css",
+    "static/js/main.f9c6ae07.js"
   ]
 }
