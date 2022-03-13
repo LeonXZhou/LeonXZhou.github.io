@@ -1,0 +1,34 @@
+.about-me-container {
+  position: absolute;
+  top: 100vh;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+h1 {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.content-flex{
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-flex p{
+  width: 30vw;
+}
+
+.content-flex img{
+  width: 20vw;  
+  filter: grayscale(100%)
+}
+
+.content-flex img:hover{
+  width: 20vw;
+  filter: grayscale(0%)
+}

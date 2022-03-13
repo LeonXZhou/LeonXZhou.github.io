@@ -1,5 +1,6 @@
 .navButton{
   padding: .5em;
+  backdrop-filter: blur(2px);
 }
 .right .navButton{
   cursor: pointer ;

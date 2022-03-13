@@ -1,6 +1,5 @@
 import './NavBar.css';
 import NavBarButton from './NavBarButton';
-
 export default function NavBarTop() {
   return (
     <nav className="top">
@@ -23,6 +22,7 @@ export default function NavBarTop() {
           Resume
         </NavBarButton>
       </div>
+
     </nav>
   );
 }

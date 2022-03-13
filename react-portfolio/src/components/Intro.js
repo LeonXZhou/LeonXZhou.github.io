@@ -19,7 +19,7 @@ export default function Intro(props) {
           currentMotto = currentMotto.slice(0, currentMotto.length - 1) + targetMotto[typeCounter] + currentMotto.slice(currentMotto.length - 1, currentMotto.length);
           mottoElement.innerText = currentMotto;
           console.log('asdf')
-          if (typeCounter === targetMotto.length-1) {
+          if (typeCounter === targetMotto.length - 1) {
             currentMotto = currentMotto.slice(0, currentMotto.length - 1);
             mottoElement.innerText = currentMotto;
             document.querySelector('.pitch').classList.toggle("slide")
@@ -40,6 +40,9 @@ export default function Intro(props) {
         <p className="motto hidden">_</p>
         <p className="pitch">I'm a software engineer with a passion for solving
           complex problems with technology. </p>
+      </div>
+      <div className="icon-container">
+        <i className="fa-solid fa-angles-down fa-bounce "></i>
       </div>
     </>
   );

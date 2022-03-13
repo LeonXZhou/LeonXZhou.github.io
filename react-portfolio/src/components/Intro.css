@@ -1,12 +1,14 @@
 .intro {
   padding-left: 15%;
   padding-right: 30%;
-  padding-top: 70px;
+  padding-top: 90px;
 }
+
 
 .intro p {
   margin: 10px;
   font-size: 25px;
+  backdrop-filter: blur(2px);
 }
 
 .intro .name {
@@ -26,15 +28,26 @@
   visibility: hidden;
 }
 
-.intro .pitch.slide{
+.intro .pitch.slide {
   opacity: 100%;
   transition: 1s;
 }
-
-
 
 .intro .pitch {
   opacity: 0%;
   padding-right: 30%;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 80vh;
+  width: 100%;
+  font-size: 55px;
+  --fa-animation-duration: 2s;
+}
+
+.icon-container i {
+  backdrop-filter: blur(2px);
+}
