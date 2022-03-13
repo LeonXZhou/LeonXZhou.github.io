@@ -5,11 +5,6 @@ import ParticleBackground from "./components/ParticleBackground";
 import {useEffect} from 'react';
 import AboutMe from "./components/AboutMe";
 function App() {
-  useEffect(()=>{
-    const canvas = document.querySelector('#tsparticles canvas')
-    canvas.style.removeProperty('width');
-    console.log(canvas.style)
-  },[])
   return (
     <div className="App">
       <NavBarTop/>

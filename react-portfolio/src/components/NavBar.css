@@ -27,6 +27,7 @@ nav.top .left {
   /* font-style: italic; */
   font-size: 30px;
   font-family: Bravo;
+  border: solid
 }
 
 nav.top .right {

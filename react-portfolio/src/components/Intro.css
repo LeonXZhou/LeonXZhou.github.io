@@ -1,40 +1,39 @@
 .intro {
   padding-left: 15%;
   padding-right: 30%;
-  padding-top: 90px;
+  padding-top: 10vh;
 }
 
 
 .intro p {
-  margin: 10px;
-  font-size: 25px;
+  margin: 2vh;
+  font-size: 2.5vh;
   backdrop-filter: blur(2px);
 }
 
 .intro .name {
-  font-size: 100px;
+  font-size: 10vh;
   font-weight: bolder;
 }
 
 .intro .motto {
-  font-size: 100px;
+  font-size: 10vh;
   font-weight: bolder;
   color: rgb(112, 112, 112);
 }
 
 .intro .motto.hidden {
-  font-size: 100px;
   font-weight: bolder;
   visibility: hidden;
 }
 
-.intro .pitch.slide {
-  opacity: 100%;
-  transition: 1s;
+.intro .pitch.hidden {
+  opacity: 0%;
 }
 
 .intro .pitch {
-  opacity: 0%;
+  transition: 1s;
+  opacity: 100%;
   padding-right: 30%;
 }
 
@@ -42,9 +41,9 @@
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 80vh;
+  top: 85vh;
   width: 100%;
-  font-size: 55px;
+  font-size: 5vh;
   --fa-animation-duration: 2s;
 }
 
