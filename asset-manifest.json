@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.87490caf.css",
-    "main.js": "/static/js/main.f9c6ae07.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "main.css": "/static/css/main.05ca2878.css",
+    "main.js": "/static/js/main.1b260d7b.js",
+    "static/js/415.22d1fb27.chunk.js": "/static/js/415.22d1fb27.chunk.js",
+    "static/js/787.0e6c9168.chunk.js": "/static/js/787.0e6c9168.chunk.js",
+    "static/media/Leon.png": "/static/media/Leon.7b7572d6bbabf4d698f5.png",
     "static/media/Bavro-Regular.ttf": "/static/media/Bavro-Regular.a5c188fd24166095f144.ttf",
     "index.html": "/index.html",
-    "main.87490caf.css.map": "/static/css/main.87490caf.css.map",
-    "main.f9c6ae07.js.map": "/static/js/main.f9c6ae07.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.05ca2878.css.map": "/static/css/main.05ca2878.css.map",
+    "main.1b260d7b.js.map": "/static/js/main.1b260d7b.js.map",
+    "415.22d1fb27.chunk.js.map": "/static/js/415.22d1fb27.chunk.js.map",
+    "787.0e6c9168.chunk.js.map": "/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87490caf.css",
-    "static/js/main.f9c6ae07.js"
+    "static/css/main.05ca2878.css",
+    "static/js/main.1b260d7b.js"
   ]
 }
