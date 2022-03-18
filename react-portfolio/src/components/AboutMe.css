@@ -1,34 +1,40 @@
 .about-me-container {
-  position: absolute;
-  top: 100vh;
+  /* position: absolute; */
+  /* top: 100vh; */
   width: 100%;
   background-color: rgb(31, 31, 31);
   color: white;
 }
 
 h1 {
-  padding-left: 100px;
-  padding-top: 50px;
+  padding-left: 20%;
+  padding-top: 8vh;
+  margin: 0;
 }
 
 .content-flex{
-  display: flex;
   width: 100%;
-  padding-top: 50px;
-  justify-content: space-around;
+  
+  display: flex;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  justify-content: space-between;
   align-items: center;
+
+  padding-left: 20%;
+  padding-right: 20%
 }
 
 .content-flex p{
-  width: 30vw;
+  width: 25vw;
+  border-width: 1px;
+  padding: 10px;
 }
 
 .content-flex img{
   width: 20vw;  
-  filter: grayscale(100%)
 }
 
 .content-flex img:hover{
   width: 20vw;
-  filter: grayscale(0%)
 }

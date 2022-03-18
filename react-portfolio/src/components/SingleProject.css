@@ -1,0 +1,24 @@
+.single-project {
+  width: 25vw;
+  height: 15vw;
+  margin: 0px;
+}
+
+.single-project p{
+  transition: 1s;
+  position:relative;
+  top: 5vw;
+  left:2.5vw;
+  backdrop-filter: blur(15px) brightness(40%);
+  text-align: center;
+  /* background-color: black; */
+  color: white;
+  width: 20vw;
+}
+
+.single-project p.hidden{
+  position:relative;
+  top: 10vw;
+  color:white;
+  opacity: 0%;
+}
