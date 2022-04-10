@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <NavBarTop/>
       <Intro/>
-      <AboutMe></AboutMe>
       <Project></Project>
+      <AboutMe></AboutMe>
       <ParticleBackground height={'800px'}></ParticleBackground>
     </div>
   );
