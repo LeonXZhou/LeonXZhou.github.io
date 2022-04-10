@@ -3,6 +3,9 @@
   height: 15vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .single-project .text{
@@ -15,6 +18,10 @@
   /* background-color: black; */
   color: white;
   width: 20vw;
+}
+
+.single-project a {
+  color: white;
 }
 
 .single-project .text.hidden{
