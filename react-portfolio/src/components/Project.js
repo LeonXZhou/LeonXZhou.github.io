@@ -6,10 +6,10 @@ export default function Project() {
     title: 'Odyssey',
     description: "An outdoor adventure planning app built using React, Express, NodeJS, and PostgreSQL",
     demo: "https://www.w3schools.com",
-    code: "https://www.w3schools.com",
+    code: "https://github.com/LeonXZhou/Odyssey",
   }
 
-  const projects = [odyssey,odyssey];
+  const projects = [odyssey,odyssey,odyssey,odyssey,odyssey];
 
   const projectsJSX = projects.map((project) => {
     return (<SingleProject
