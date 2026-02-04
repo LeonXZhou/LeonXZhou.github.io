@@ -31,8 +31,18 @@ export default function Intro(props) {
           }
         }, 100)
       }
-    }, 400);
+    }, 150);
   }, [])
+
+  const scrollToAboutMe = ()=>{
+    if (props?.aboutMeRef?.current) {
+      props.aboutMeRef.current.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }
+
   return (
     <>
       <div className="intro">
@@ -43,7 +53,7 @@ export default function Intro(props) {
           complex problems with technology. </p>
       </div>
       <div className="icon-container">
-        <i className="fa-solid fa-angles-down fa-bounce "></i>
+        <i className="fa-solid fa-angles-down fa-bounce" onClick={scrollToAboutMe}></i>
       </div>
     </>
   );

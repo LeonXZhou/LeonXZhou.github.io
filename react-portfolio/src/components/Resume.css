@@ -1,0 +1,16 @@
+@media (min-aspect-ratio: 4/3) {
+  iframe {
+    width: 900px;
+    height: 1200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+  }
+
+  .resumeContainer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}

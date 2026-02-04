@@ -12,8 +12,11 @@ export default function SingleProject(props) {
       <div className="text hidden" ref={text}>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
-        <a href={props.demoLink} target="_blank">Demo</a> 
-        <br></br>
+        {props.demo ? (<>
+          <a href={props.demoLink} target="_blank">Demo</a>
+          <br></br>
+        </>
+        ) : <></>}
         <a href={props.codeLink} target="_blank">Source Code</a>
       </div>
     </div >);

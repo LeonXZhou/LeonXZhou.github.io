@@ -1,66 +1,70 @@
-.single-project {
-  width: 25vw;
-  height: 15vw;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* border-width: 1vw;
+@media (min-aspect-ratio: 4/3) {
+  .single-project {
+    width: 30vw;
+    height: 20vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-width: 1vw;
   border-style: solid; */
-  /* border-color: coral;  */
-}
+    /* border-color: coral;  */
+  }
 
-.single-project .text{
-  transition: 1s;
-  position:relative;
-  top: 2vw;
-  left:2.5vw;
-  backdrop-filter: blur(3px) brightness(40%);
-  text-align: center;
-  /* background-color: black; */
-  color: white;
-  width: 20vw;
-  height: 10vw;
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-  /* flex-flow: column wrap; */
-}
-/* Let's get this party started */
-.single-project .text::-webkit-scrollbar {
-  width: 12px;
-}
+  .single-project .text {
+    transition: 1s;
+    position: relative;
+    top: 2vw;
+    left: 2.5vw;
+    backdrop-filter: blur(3px) brightness(40%);
+    text-align: center;
+    /* background-color: black; */
+    color: white;
+    width: 25vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* flex-flow: column wrap; */
+  }
 
-/* Track */
-.single-project .text::-webkit-scrollbar-track {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
+  /* Let's get this party started */
+  .single-project .text::-webkit-scrollbar {
+    width: 12px;
+  }
 
-/* Handle */
-.single-project .text::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  background: rgb(231, 231, 231); 
-}
-.single-project .text::-webkit-scrollbar-thumb:window-inactive {
-background: rgb(231, 231, 231);
-}
+  /* Track */
+  .single-project .text::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
 
-.single-project a {
-  color: white;
-}
+  /* Handle */
+  .single-project .text::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgb(231, 231, 231);
+  }
 
-.single-project .text.hidden{
-  position:relative;
-  height: 0px;
-  top: 7vw;
-  opacity: 0%;
-}
+  .single-project .text::-webkit-scrollbar-thumb:window-inactive {
+    background: rgb(231, 231, 231);
+  }
+
+  .single-project a {
+    color: white;
+  }
+
+  .single-project .text.hidden {
+    position: relative;
+    height: 0px;
+    top: 7vw;
+    opacity: 0%;
+  }
 
 
-.single-project h1{
-  padding: 0px;
-  margin: 0px;
+  .single-project h1 {
+    padding: 0px;
+    margin: 0px;
+  }
 }
