@@ -60,3 +60,69 @@
     font-size: 2vh;
   }
 }
+
+
+@media(max-aspect-ratio: 4/3) {
+  .about-me-container {
+    /* position: absolute; */
+    /* top: 100vh; */
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 100vh;
+  }
+  
+  .about-me-container h1 {
+    padding-left: 15%;
+    padding-top: 8vh;
+    margin: 0;
+  }
+  
+  .about-me-container .content-flex{
+    width: 100%;
+    
+    display: flex;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+  
+    padding-left: 15%;
+    padding-right: 15%
+  }
+  
+  .about-me-container .content-flex p{
+    width: 70vw;
+    border-width: 1px;
+    margin-right: 10%;
+    flex-grow: 2;
+  }
+  
+  .about-me-container .content-flex img{
+    height: 30vh;  
+  }
+  
+  .about-me-container .content-flex img:hover{
+    height: 30vh;
+  }
+  
+  .about-me-container .icon-container {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 190vh;
+    width: 100%;
+    font-size: 5vw;
+    --fa-animation-duration: 2s;
+    cursor: pointer;
+  }
+  
+  .about-me-container .icon-container i {
+    backdrop-filter: blur(2px);
+  }
+  .about-me-container p {
+    font-size: 2vw;
+  }
+}
+

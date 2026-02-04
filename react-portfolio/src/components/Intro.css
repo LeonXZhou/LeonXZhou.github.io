@@ -54,3 +54,60 @@
     backdrop-filter: blur(2px);
   }
 }
+
+@media(max-aspect-ratio: 4/3) {
+  .intro {
+    padding-left: 15%;
+    padding-right: 30%;
+    padding-top: 10vh;
+    height: 87vh;
+  }
+
+
+  .intro p {
+    margin: 2vh;
+    font-size: 2.5vw;
+    backdrop-filter: blur(2px);
+  }
+
+  .intro .name {
+    font-size: 10vw;
+    font-weight: bolder;
+  }
+
+  .intro .motto {
+    font-size: 10vw;
+    font-weight: bolder;
+    color: rgb(112, 112, 112);
+  }
+
+  .intro .motto.hidden {
+    font-weight: bolder;
+    visibility: hidden;
+  }
+
+  .intro .pitch.hidden {
+    opacity: 0%;
+  }
+
+  .intro .pitch {
+    transition: 1s;
+    opacity: 100%;
+    padding-right: 30%;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 90vh;
+    width: 100%;
+    font-size: 35px;
+    --fa-animation-duration: 2s;
+    cursor: pointer;
+  }
+
+  .icon-container i {
+    backdrop-filter: blur(2px);
+  }
+}
